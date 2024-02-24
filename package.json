@@ -1,10 +1,11 @@
 {
-  "name": "sandbox",
+  "name": "sandbox-mostly-adequate-guide-to-fp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sandbox for book 'Mostly adequate guide to FP'",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,8 @@
     "@types/node": "^20.11.20",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
   },
   "dependencies": {
     "lodash": "^4.17.21"
